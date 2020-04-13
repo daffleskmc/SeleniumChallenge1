@@ -6,4 +6,15 @@
       <class name="com.first.challenge.tests.ZResultPageTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.first.challenge.tests.ZResultPageTest">
+        <methods>
+          <include name="testSearch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.first.challenge.tests.ZResultPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
